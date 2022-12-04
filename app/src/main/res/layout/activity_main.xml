@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    tools:context=".MainActivity">
+
+
+    <include layout="@layout/home" />
+
+
+
+
+
+    <FrameLayout
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:behavior_peekHeight="132dp"
+        app:layout_behavior="@string/bottom_sheet_behavior"
+        android:background="@drawable/vc_transparent_back_bottomsheet"
+
+        >
+
+        <eightbitlab.com.blurview.BlurView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+        <include layout="@layout/layuot_bottomsheet" />
+
+        </eightbitlab.com.blurview.BlurView>
+
+    </FrameLayout>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="MyThemeColor">#6AFF00</color>
+    <color name="MySecondThemeColor">#54F000</color>
+    <color name="MyThirdThemeColor">#FFF</color>
+    <color name="TaghvimIconColor">#5AD304</color>
+    <color name="whiteback">#FFFFFF</color>
+</resources>
